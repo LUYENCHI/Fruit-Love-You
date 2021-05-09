@@ -13,13 +13,34 @@
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="landing is-preload">
+		<script async defer crossorigin="anonymous" src="https://connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v10.0" nonce="IPLeJCgk"></script>
+<!-- Messenger 洽談外掛程式 Code -->
+<div id="fb-root"></div>
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      xfbml            : true,
+      version          : 'v10.0'
+    });
+  };
+
+  (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = 'https://connect.facebook.net/zh_TW/sdk/xfbml.customerchat.js';
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+</script>
+<!-- Your 洽談外掛程式 code -->
+
 
 		<!-- Page Wrapper -->
 			<div id="page-wrapper">
 
 				<!-- Header -->
 					<header id="header" class="alt">
-						<h1><a href="index.html">果然愛你</a></h1>
+						<h1><a href="index.html"><img src="images/Logo_pic&Logo text.png" alt="" style="width: 190px; height: 50px;"></a></h1>
 						<nav id="nav">
 							<ul>
 								<li class="special">
@@ -29,8 +50,8 @@
 											<li><a href="index.html">Home</a></li>
 											<li><a href="#one">愛你秘密</a></li>
 											<li><a href="#two">愛你產品</a></li>
-											<li><a href="#three">Sign Up</a></li>
-											<li><a href="#">Log In</a></li>
+											<li><a href="#three">愛你想梨</a></li>
+											<li><a href="#">愛你購物</a></li>
 										</ul>
 									</div>
 								</li>
@@ -41,11 +62,11 @@
 				<!-- Banner -->
 					<section id="banner">
 						<div class="inner">
-							<h2>果然愛你</h2><br>
-							
-							<ul class="actions special">
-								
-							</ul>
+							<blockquote>
+							<img src="images/Fruit Love You- br .jpg" alt="" style=" width: 80%;
+								height: 70%;" >
+							</blockquote>
+						
 						</div>
 						<a href="#one" class="more scrolly">Read More</a>
 					</section>
@@ -61,8 +82,16 @@
 							
 						</div>
 					</section>
-
+					
+					
 				<!-- Two -->
+				<div class="news" id="anchor3"><BR>
+					<marquee direction="right" height="auto" scrollamount="8" behavior="alternate" width=50% >最新消息!!!</marquee><br>
+						   <div class="content">
+							<div class="fb-page" data-href="https://www.facebook.com/fruitloveyouu" data-tabs="timeline" data-width="750" data-height="400" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/fruitloveyouu" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/fruitloveyouu">果然愛你 Fruit Love You</a></blockquote></div>
+						</div><br>
+						
+					 </div>   
 					<section id="two" class="wrapper alt style2">
 						<section class="spotlight">
 							<div class="image"><img src="images/鳳梨乾 RGB.jpg" alt="" /></div><div class="content">
@@ -98,9 +127,7 @@
 					<section id="three" class="wrapper style3 special">
 						<div class="inner">
 							<header class="major">
-								<h2>Accumsan mus tortor nunc aliquet</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend<br />
-								fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.</p>
+								
 							</header>
 							<ul class="features">
 								<li class="icon fa-paper-plane">
