@@ -3353,8 +3353,10 @@ input, select, textarea {
 		-ms-transition: -ms-transform 0.5s ease;
 		transition: transform 0.5s ease;
 		-webkit-overflow-scrolling: touch;
-		background: #7fd899;
-		color: #ffffff;
+		background: rgb(246, 208, 109);
+		color: black;
+		font-weight: bold;
+		font-size: 28px;
 		height: 100%;
 		max-width: 80%;
 		overflow-y: auto;
