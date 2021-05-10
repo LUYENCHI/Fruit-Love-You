@@ -34,6 +34,31 @@
 </script>
 <!-- Your 洽談外掛程式 code -->
 
+<!-- Messenger 洽談外掛程式 Code -->
+<div id="fb-root"></div>
+<script>
+  window.fbAsyncInit = function() {
+	FB.init({
+	  xfbml            : true,
+	  version          : 'v10.0'
+	});
+  };
+
+  (function(d, s, id) {
+	var js, fjs = d.getElementsByTagName(s)[0];
+	if (d.getElementById(id)) return;
+	js = d.createElement(s); js.id = id;
+	js.src = 'https://connect.facebook.net/zh_TW/sdk/xfbml.customerchat.js';
+	fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+</script>
+
+<!-- Your 洽談外掛程式 code -->
+<div class="fb-customerchat"
+  attribution="biz_inbox"
+  page_id="102024221739155">
+</div>
+
 
 		<!-- Page Wrapper -->
 			<div id="page-wrapper">
@@ -63,7 +88,7 @@
 					<section id="banner">
 						<div class="inner">
 							<blockquote>
-							<img src="images/Fruit Love You- br .jpg" alt="" style=" width: 80%;
+							<img src="images/Fruit Love You- br .jpg" alt="" style=" width: 100%;
 								height: 70%;" >
 							</blockquote>
 						
@@ -78,7 +103,7 @@
 								<h2>果然愛你，陪伴您是最幸福的緣份 Meet You<br />
 								</h2>
 								<p>一位遠離家鄉的香港女孩，感受到台灣土地和人們的真善美，用愛台灣的一顆心，在2020年11月成立的，新鮮水果製作的天然果乾、果茶商品。 果然愛你希望成為傳遞幸福、一起守護這片土地的一份子；在台灣隨時都能在生活的各個角落，遇到善良熱情並且重視環境永續，正向人們。 「用台灣土地上產出的各種好口碑水果，成為連結台灣土地上熱情善良人們之間， 傳遞幸福的好物。」</p>
-							</header>
+							</header>                      
 							
 						</div>
 					</section>
@@ -95,29 +120,29 @@
 					<section id="two" class="wrapper alt style2">
 						<section class="spotlight">
 							<div class="image"><img src="images/鳳梨乾 RGB.jpg" alt="" /></div><div class="content">
-								<h2>Magna primis lobortis<br />
-								sed ullamcorper</h2>
+								<h2>小鳳愛梨 (鳳梨乾)<br />
+								</h2>
 								<p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
 							</div>
 						</section>
 						<section class="spotlight">
 							<div class="image"><img src="images/蘋果乾 RGB.jpg" alt="" /></div><div class="content">
-								<h2>Tortor dolore feugiat<br />
-								elementum magna</h2>
+								<h2>蘋蘋動人 (蘋果乾)<br />
+								</h2>
 								<p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
 							</div>
 						</section>
 						<section class="spotlight">
 							<div class="image"><img src="images/芭樂乾 RGB.jpg" alt="" /></div><div class="content">
-								<h2>Augue eleifend aliquet<br />
-								sed condimentum</h2>
+								<h2>暗戀芭樂 (芭樂乾)<br />
+								</h2>
 								<p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
 							</div>
 						</section>
 						<section class="spotlight">
 							<div class="image"><img src="images/甜橙乾 RGB.jpg" alt="" /></div><div class="content">
-								<h2>Tortor dolore feugiat<br />
-								elementum magna</h2>
+								<h2>甜橙愛你 (甜橙乾)<br />
+								</h2>
 								<p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
 							</div>
 						</section>
